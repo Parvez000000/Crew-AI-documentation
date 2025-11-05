@@ -1,0 +1,38 @@
+# Component Interactions
+The ML-Models project consists of several components that interact with each other to achieve the goal of bird prediction. The main components are:
+* `bird-prediction-1.ipynb`: This is the core component of the project, responsible for training and testing the machine learning model.
+* `README.md`: This file contains information about the project, including its purpose, dependencies, and usage instructions.
+
+## Component Interactions
+The components interact with each other through APIs and interfaces. The `bird-prediction-1.ipynb` component uses the `README.md` file to retrieve information about the project and its dependencies.
+
+### APIs and Interfaces
+The `bird-prediction-1.ipynb` component uses the following APIs and interfaces to interact with other components:
+* `load_data()`: This function loads the dataset used for training and testing the model.
+* `train_model()`: This function trains the machine learning model using the loaded dataset.
+* `test_model()`: This function tests the trained model using a separate dataset.
+
+### Mermaid Diagram
+The following mermaid diagram illustrates the component interactions:
+```mermaid
+graph LR
+    A[bird-prediction-1.ipynb] -->|load_data()| B[Dataset]
+    A -->|train_model()| C[Model]
+    A -->|test_model()| D[Test Dataset]
+    B --> C
+    C --> D
+```
+### Setup Instructions
+To set up the project, follow these steps:
+1. Clone the repository using `git clone`.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Run the `bird-prediction-1.ipynb` component using `jupyter notebook`.
+
+### Code Examples
+The following code snippet from `bird-prediction-1.ipynb` illustrates the loading of the dataset:
+```python
+import pandas as pd
+
+# Load the dataset
+df = pd.read_csv('dataset.csv')
+```
