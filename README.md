@@ -1,11 +1,3 @@
-# Building Code Documentation Agents with CrewAI 🤖
-
-[![Deploy Now](https://brev-assets.s3.us-west-1.amazonaws.com/nv-lb-dark.svg)](https://console.brev.dev/launchable/deploy?launchableID=env-2qNXgLMuzlJ8LS8Kl30EXbGwxSh)
-
-A powerful system that leverages CrewAI Flows to automatically generate comprehensive documentation for any public GitHub repository. This project employs multiple specialized AI agents working collaboratively to produce high-quality, accurate documentation tailored to your codebase.
-
----
-
 ## Key Features
 
 - **Multi-Agent Workflow**: Specialized agents collaborate to analyze and document your code.
@@ -81,42 +73,5 @@ The system generates multiple types of documentation, including:
 - **Setup Instructions**
 
 ---
-
-## Contributing
-
-We welcome contributions! To get involved:
-
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature X"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Submit a Pull Request.
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
-Built with ❤️ using CrewAI and NVIDIA AI.
-
----
-
-## About the NVIDIA Collaboration
-
-Today, we are thrilled to announce a major collaboration with NVIDIA, fully integrating CrewAI with NVIDIA NIM microservices—part of the NVIDIA AI Enterprise software platform. This integration empowers developers to harness high-performance inference capabilities for the latest foundation models, enabling scalable and secure deployment of AI agents across various industries and workflows.
-
-### Broader Vision
-
-While this demo focuses on automating project documentation, the collaboration paves the way for unlocking the full potential of AI agents across industries. Our shared goal is to make AI agents more autonomous, accessible, and transformative for organizations worldwide.
 
 
